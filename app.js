@@ -5,7 +5,7 @@ const fruits = require("./routes/fruits")
 app.use(express.json());
 
 app.get('/', (req, res) => {
-   res.send('Hello Fruity!');
+   res.send('Hello world!');
 })
 
 app.use('/fruits', fruits);
