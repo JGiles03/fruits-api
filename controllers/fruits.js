@@ -45,7 +45,7 @@ const update = async (req, res) => {
 
         res.status(200).send(result)
     } catch(err) {
-        res.status(404).send({"error": err});
+        res.status(407).send({"error": err});
     }
 }
 
